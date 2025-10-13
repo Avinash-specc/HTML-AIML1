@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration form</title>
+</head>
+<body>
+    <header><center><h1>Student Registration Form</h1></center></header>
+    <hr>
+    <form action="//submit.form" method="post"> 
+    <label for="101">
+        <strong>Full Name:</strong> <input type="text" name="Full_name" id="101" placeholder="Enter your full name" required>
+        </label>
+        <br><br>
+        <label for="102">
+        <strong>Email:</strong> <input type="email" name="user_email" id="102" placeholder="Enter valid email address" required>
+    </label>
+    <br><br>
+    <label for="103">
+        <strong>Password:</strong> <input type="password" name="user_password" id="103" placeholder="Enter password" required>
+    </label>
+    <br><br>
+    <label for="104">
+        <strong>Gender: </strong> <input type="radio" value="male" name="Gender" id="104" required>Male</label>
+            <label for="105">
+            <input type="radio" value="female" name="Gender" id="105" required>Female
+            </label>
+            <label for="106">
+            <input type="radio" value="other" name="Gender" id="106" required>Other
+            </label>
+            </label>
+            <br><br>
+            <label for="107">
+            <strong>Course:</strong> <select name="course" id="107" required>
+                <option value="" disabled selected>-- Select Course --</option>
+                <option value="Btech">Btech</option>
+                <option value="MCA">MCA</option>
+                <option value="Mtech">Mtech</option>
+            </select>
+            </label>
+            <br><br>
+            <label for="108"><strong>Contact No: </strong></label>
+            <input type="number" name="user_phoneno" id="108" required>
+            <br>
+            <br>
+            <label for="109" ><strong>Address: </strong></label><br>
+            <textarea name="Address:" placeholder="Enter your Address" required id="109" rows="4"></textarea>
+    </label>
+    <br><br>
+    <button type="submit">Register</button> &nbsp;<button type="reset">Clear</button>
+    <hr>
+    <center><p>&copy; 2025 Student Registration Portal</p></center>
+</form>
+
+</body>
+</html>
