@@ -1,0 +1,46 @@
+<!Doctype Html>
+<html lang ="en">
+<head>  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title> </head>
+<body>
+<center><h1>STUDENT REGISTRATION FORM</h1></center>
+<br><br>
+<form action ="/response.html" target="_blank" method ="post">
+<fieldset>
+<label for="name">
+Full Name:<input type="text" id ="name" placeholder="Enter your Full name here" name="name" required>
+</label>
+<br><br>
+<label for="password">
+Password:<input type="password" name="password" id="password" required>
+</label>
+<br><br>
+<label for="tele">
+Phone no:<input type="tel" id="tele" name="tele" placeholder="Enter your Phone number here"> 
+<br><br>
+<label for="class">
+Select Your Class:<input type="radio" id="class" name="class" required>Class XI
+<input type ="radio" id="class" name="class" required>Class XII
+</label>
+<br><br>
+<label for="email">
+Email:<input type="email" name="email" id="email" placeholder="Enter your Email here" required>
+</label>
+<br><br>
+<label for="roll no">
+Roll No:<input type ="number" id ="roll no" required">
+</label>
+<br><br>
+<label for="select">
+Select Course to be Opted:<select name="select" id="select" required value ="Select your Future Course">
+<option value="Btech">Btech</option>
+<option value="MCA">MCA</option>
+</label>
+<br><br>
+<button type="submit" value="submit">submit</button>
+<button type="reset" value="reset">reset</button>
+</fieldset>
+</form>
+</body>
+</html>
